@@ -59,7 +59,7 @@ export const PROJECTS = [
     featured: true,
     links: {
       github: "https://github.com/Sheersh01/PreDusk_Intern",
-      live: "https://pre-dusk-intern.vercel.app/",
+      live: "",
     },
   },
   {
