@@ -34,10 +34,39 @@ import imgCircle3dImg from "../images/Img_Circle_3D.png";
 import iiitnImg from "../images/IIITN.png";
 import pearMediaImg from "../images/Pear_Media.png";
 import interviewPilotImg from "../images/Interview_Pilot.png";
+import mahabalAgroIndustriesImg from "../images/Mahabal_Agro_Industries.png";
 
 export const PROJECTS = [
   {
     id: 1,
+    emoji: "🌱",
+    img: mahabalAgroIndustriesImg,
+    title: "Mahabal Agro Industries",
+    cat: "frontend",
+    catLabel: "Frontend",
+    desc: "Multilingual marketing website for an agro-industrial company featuring animations, localization, SEO optimization, and lead generation.",
+    full: "Mahabal Agro Industries is a production-ready corporate website built for an agro-industrial company to showcase its compost products, farmer-focused initiatives, and business information. Developed using React and Vite, the platform delivers a fully responsive multilingual experience supporting English, Hindi, and Marathi through i18next localization. The application features smooth scrolling with Lenis, GSAP-powered animations, interactive UI components, SEO optimization with Open Graph metadata, sitemap generation, and a Web3Forms-powered contact system. The project emphasizes modern frontend architecture, accessibility, performance optimization, and content localization while providing an engaging user experience across desktop and mobile devices.",
+    tags: ["frontend", "multilingual", "seo", "animations", "responsive"],
+    stack: [
+      "React",
+      "Vite",
+      "JavaScript",
+      "Tailwind CSS",
+      "React Router",
+      "i18next",
+      "GSAP",
+      "Lenis",
+      "Web3Forms",
+      "Cloudflare",
+    ],
+    featured: true,
+    links: {
+      github: "https://github.com/Mahabal-Agro/MahabalAgroInd",
+      live: "https://mahabalagroindustries.com",
+    },
+  },
+  {
+    id: 3,
     emoji: "📄",
     img: extractHubImg,
     title: "ExtractHub",
@@ -102,7 +131,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 3,
+    id: 4,
     emoji: "🛒",
     img: eCommerceImg,
     title: "E-Commerce Platform",
@@ -130,7 +159,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 4,
+    id: 5,
     emoji: "🤖",
     img: codeReviewerImg,
     title: "Code Reviewer",
@@ -153,7 +182,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Code_Reviewer", live: "" },
   },
   {
-    id: 5,
+    id: 6,
     emoji: "♟️",
     img: chessBackendImg,
     title: "Chess.com Clone Backend",
@@ -180,7 +209,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 6,
+    id: 7,
     emoji: "🏫",
     img: iiitnImg,
     title: "IIITN Web",
@@ -194,7 +223,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Devendraxp/iiitnagpur", live: "" },
   },
   {
-    id: 7,
+    id: 8,
     emoji: "🎬",
     img: videoUploadImg,
     title: "VideoUpload",
@@ -208,7 +237,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/VideoUpload", live: "" },
   },
   {
-    id: 8,
+    id: 9,
     emoji: "🧠",
     img: creativePortfolioImg,
     title: "Creative_Portfolio",
@@ -233,7 +262,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 9,
+    id: 10,
     emoji: "🧩",
     img: canvasForgeImg,
     title: "CanvasForge",
@@ -250,7 +279,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 10,
+    id: 11,
     emoji: "🎬",
     img: movieVaultImg,
     title: "MovieVault",
@@ -267,7 +296,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 11,
+    id: 12,
     emoji: "🍐",
     title: "Pear Media",
     img: pearMediaImg,
@@ -284,7 +313,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 12,
+    id: 13,
     emoji: "🧊",
     img: imgCircle3dImg,
     title: "Img Circle 3D",
@@ -298,14 +327,14 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Img_Circle3D", live: "" },
   },
   {
-    id: 13,
+    id: 14,
     emoji: "🌌",
     img: tantraFiestaImg,
     title: "TantraFiesta 2025",
     cat: "creative",
     catLabel: "Creative",
     desc: "Immersive 3D interactive event website with Three.js animations, smooth scrolling, and dynamic content transitions.",
-    full: "TantraFiesta 2025 is an immersive 3D interactive website built for IIIT Nagpur’s national-level technical fest. It features a space-themed scroll experience powered by Three.js, where users navigate through sections like events, sponsors, speakers, and contact via a cinematic camera path. The application integrates GSAP animations, Lenis smooth scrolling, and custom shaders (god-rays) for visual effects. It includes responsive optimizations such as mobile frame-rate limiting, lazy loading, and adaptive rendering. Additional features include audio controls, dynamic transitions, and SEO-ready multi-page architecture, making it a visually rich and performance-optimized frontend experience.",
+    full: "TantraFiesta 2025 is an immersive 3D interactive website built for IIIT Nagpur's national-level technical fest. It features a space-themed scroll experience powered by Three.js, where users navigate through sections like events, sponsors, speakers, and contact via a cinematic camera path. The application integrates GSAP animations, Lenis smooth scrolling, and custom shaders (god-rays) for visual effects. It includes responsive optimizations such as mobile frame-rate limiting, lazy loading, and adaptive rendering. Additional features include audio controls, dynamic transitions, and SEO-ready multi-page architecture, making it a visually rich and performance-optimized frontend experience.",
     tags: ["threejs", "3d", "frontend", "animations", "interactive"],
     stack: ["Three.js", "JavaScript", "Vite", "GSAP", "Lenis", "Tailwind CSS"],
     featured: true,
@@ -315,7 +344,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 14,
+    id: 15,
     emoji: "🪐",
     img: solarSystemImg,
     title: "Solar System 3D",
@@ -329,7 +358,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Planets_2", live: "" },
   },
   {
-    id: 15,
+    id: 16,
     emoji: "🫧",
     img: blobMixerImg,
     title: "Blob Mixer",
@@ -343,7 +372,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Blob_Mixer", live: "" },
   },
   {
-    id: 16,
+    id: 17,
     emoji: "🌀",
     img: circularImageAnimationImg,
     title: "Circular Image Animation",
@@ -360,7 +389,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 17,
+    id: 18,
     emoji: "🧬",
     img: devebCoImg,
     title: "Deveb Co Clone",
@@ -374,7 +403,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Deveb_Co", live: "" },
   },
   {
-    id: 18,
+    id: 19,
     emoji: "🌍",
     img: planetsMainImg,
     title: "Planets Main",
@@ -388,7 +417,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/planets_main", live: "" },
   },
   {
-    id: 19,
+    id: 20,
     emoji: "🌐",
     img: threeJsLandingImg,
     title: "3JS Landing Page",
@@ -405,7 +434,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 20,
+    id: 21,
     emoji: "⛳",
     img: sidcupGolfImg,
     title: "Sidcup Family Golf Clone",
@@ -422,7 +451,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 21,
+    id: 22,
     emoji: "🌋",
     img: magmaImg,
     title: "Magma Clone",
@@ -436,7 +465,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/MAGMA", live: "" },
   },
   {
-    id: 22,
+    id: 23,
     emoji: "🎥",
     img: rejouiceImg,
     title: "Rejouice Clone",
@@ -450,7 +479,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Rejouice", live: "" },
   },
   {
-    id: 23,
+    id: 24,
     emoji: "🌇",
     img: sundownStudioImg,
     title: "Sundown Studio Clone",
@@ -464,7 +493,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Sundown-Studio", live: "" },
   },
   {
-    id: 24,
+    id: 25,
     emoji: "🌀",
     img: cubertoImg,
     title: "Cuberto Clone",
@@ -478,7 +507,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Cuberto", live: "" },
   },
   {
-    id: 25,
+    id: 26,
     emoji: "✨",
     img: modernLandingImg,
     title: "Modern Landing Page",
@@ -495,7 +524,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 26,
+    id: 27,
     emoji: "🏛️",
     img: nagaravrttaImg,
     title: "Nagaravrtta",
@@ -509,7 +538,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Nagaravrtta", live: "" },
   },
   {
-    id: 27,
+    id: 28,
     emoji: "🎞️",
     img: thomasVanceImg,
     title: "Thomas Vance Animation",
@@ -523,7 +552,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Thomas-Vance", live: "" },
   },
   {
-    id: 28,
+    id: 29,
     emoji: "🚀",
     img: eSummitImg,
     title: "E-Summit Website",
@@ -546,7 +575,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 29,
+    id: 30,
     emoji: "🧑‍💻",
     img: portfolioV1Img,
     title: "Portfolio v1",
@@ -560,7 +589,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Portfolio_1", live: "" },
   },
   {
-    id: 30,
+    id: 31,
     emoji: "🖥️",
     img: peterSandImg,
     title: "Peter Sand Clone",
@@ -574,7 +603,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/PETER-SAND", live: "" },
   },
   {
-    id: 31,
+    id: 32,
     emoji: "🧱",
     img: bentoGridImg,
     title: "Bento Grid Portfolio",
@@ -588,7 +617,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Bento-Grid", live: "" },
   },
   {
-    id: 32,
+    id: 33,
     emoji: "🍽️",
     img: restaurantWebsiteImg,
     title: "Restaurant Website",
@@ -605,7 +634,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 33,
+    id: 34,
     emoji: "🔵",
     img: bubbleGameImg,
     title: "Bubble Game",
@@ -619,7 +648,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Bubble-Game", live: "" },
   },
   {
-    id: 34,
+    id: 35,
     emoji: "🐍",
     img: snakeGameImg,
     title: "Snake Game",
@@ -633,7 +662,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Snake_Game", live: "" },
   },
   {
-    id: 35,
+    id: 36,
     emoji: "✊",
     img: stonePaperScissorImg,
     title: "Rock Paper Scissors",
@@ -650,7 +679,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 36,
+    id: 37,
     emoji: "📝",
     img: toDoListImg,
     title: "To-Do List",
