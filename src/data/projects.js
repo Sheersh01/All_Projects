@@ -33,6 +33,7 @@ import videoUploadImg from "../images/VideoUpload.png";
 import imgCircle3dImg from "../images/Img_Circle_3D.png";
 import iiitnImg from "../images/IIITN.png";
 import pearMediaImg from "../images/Pear_Media.png";
+import interviewPilotImg from "../images/Interview_Pilot.png";
 
 export const PROJECTS = [
   {
@@ -64,6 +65,44 @@ export const PROJECTS = [
   },
   {
     id: 2,
+    emoji: "🎯",
+    img: interviewPilotImg,
+    title: "InterviewPilot",
+    cat: "fullstack",
+    catLabel: "Full-stack",
+    desc: "AI-powered resume analysis and interview preparation platform leveraging RAG, vector search, ATS scoring, mock interviews, and personalized coaching.",
+    full: "InterviewPilot is a production-grade Full-Stack RAG (Retrieval-Augmented Generation) platform built to accelerate interview preparation through AI-powered resume intelligence. Users can upload resumes, generate semantic embeddings with Google Gemini, and store them in MongoDB Atlas Vector Search for highly personalized analysis. The platform provides ATS compatibility scoring, resume gap analysis, mock interview simulations, semantic resume search, and a real-time AI coaching assistant with grounded citations. Advanced retrieval combines exact keyword matching with vector similarity search, while section-aware chunking and parent-child contextual embeddings preserve document hierarchy for more accurate results. The application features secure cookie-based authentication, automated resume re-indexing, workspace management utilities, and a modern React-based user experience.",
+    tags: [
+      "rag",
+      "ai",
+      "vector-search",
+      "fullstack",
+      "mongodb",
+      "langchain",
+      "gemini",
+    ],
+    stack: [
+      "React 19",
+      "Vite",
+      "Tailwind CSS",
+      "Zustand",
+      "Node.js",
+      "Express.js",
+      "MongoDB Atlas",
+      "Vector Search",
+      "LangChain",
+      "Google Gemini",
+      "JWT",
+      "Docker",
+    ],
+    featured: true,
+    links: {
+      github: "https://github.com/Sheersh01/RAG-PDF",
+      live: "https://rag-pdf-frontend-iota.vercel.app",
+    },
+  },
+  {
+    id: 3,
     emoji: "🛒",
     img: eCommerceImg,
     title: "E-Commerce Platform",
@@ -91,7 +130,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 3,
+    id: 4,
     emoji: "🤖",
     img: codeReviewerImg,
     title: "Code Reviewer",
@@ -114,7 +153,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Code_Reviewer", live: "" },
   },
   {
-    id: 4,
+    id: 5,
     emoji: "♟️",
     img: chessBackendImg,
     title: "Chess.com Clone Backend",
@@ -141,9 +180,9 @@ export const PROJECTS = [
     },
   },
   {
-    id: 5,
+    id: 6,
     emoji: "🏫",
-    img:iiitnImg,
+    img: iiitnImg,
     title: "IIITN Web",
     cat: "fullstack",
     catLabel: "Full-stack",
@@ -155,7 +194,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Devendraxp/iiitnagpur", live: "" },
   },
   {
-    id: 6,
+    id: 7,
     emoji: "🎬",
     img: videoUploadImg,
     title: "VideoUpload",
@@ -169,7 +208,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/VideoUpload", live: "" },
   },
   {
-    id: 7,
+    id: 8,
     emoji: "🧠",
     img: creativePortfolioImg,
     title: "Creative_Portfolio",
@@ -194,7 +233,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 8,
+    id: 9,
     emoji: "🧩",
     img: canvasForgeImg,
     title: "CanvasForge",
@@ -211,7 +250,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 9,
+    id: 10,
     emoji: "🎬",
     img: movieVaultImg,
     title: "MovieVault",
@@ -228,10 +267,10 @@ export const PROJECTS = [
     },
   },
   {
-    id: 10,
+    id: 11,
     emoji: "🍐",
     title: "Pear Media",
-    img:pearMediaImg,
+    img: pearMediaImg,
     cat: "frontend",
     catLabel: "Frontend",
     desc: "AI creative studio for generating images from text and transforming images into new styles using Gemini and Pollinations.",
@@ -245,7 +284,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 11,
+    id: 12,
     emoji: "🧊",
     img: imgCircle3dImg,
     title: "Img Circle 3D",
@@ -259,7 +298,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Img_Circle3D", live: "" },
   },
   {
-    id: 12,
+    id: 13,
     emoji: "🌌",
     img: tantraFiestaImg,
     title: "TantraFiesta 2025",
@@ -276,7 +315,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 13,
+    id: 14,
     emoji: "🪐",
     img: solarSystemImg,
     title: "Solar System 3D",
@@ -290,7 +329,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Planets_2", live: "" },
   },
   {
-    id: 14,
+    id: 15,
     emoji: "🫧",
     img: blobMixerImg,
     title: "Blob Mixer",
@@ -304,7 +343,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Blob_Mixer", live: "" },
   },
   {
-    id: 15,
+    id: 16,
     emoji: "🌀",
     img: circularImageAnimationImg,
     title: "Circular Image Animation",
@@ -321,7 +360,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 16,
+    id: 17,
     emoji: "🧬",
     img: devebCoImg,
     title: "Deveb Co Clone",
@@ -335,7 +374,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Deveb_Co", live: "" },
   },
   {
-    id: 17,
+    id: 18,
     emoji: "🌍",
     img: planetsMainImg,
     title: "Planets Main",
@@ -349,7 +388,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/planets_main", live: "" },
   },
   {
-    id: 18,
+    id: 19,
     emoji: "🌐",
     img: threeJsLandingImg,
     title: "3JS Landing Page",
@@ -366,7 +405,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 19,
+    id: 20,
     emoji: "⛳",
     img: sidcupGolfImg,
     title: "Sidcup Family Golf Clone",
@@ -383,7 +422,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 20,
+    id: 21,
     emoji: "🌋",
     img: magmaImg,
     title: "Magma Clone",
@@ -397,7 +436,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/MAGMA", live: "" },
   },
   {
-    id: 21,
+    id: 22,
     emoji: "🎥",
     img: rejouiceImg,
     title: "Rejouice Clone",
@@ -411,7 +450,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Rejouice", live: "" },
   },
   {
-    id: 22,
+    id: 23,
     emoji: "🌇",
     img: sundownStudioImg,
     title: "Sundown Studio Clone",
@@ -425,7 +464,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Sundown-Studio", live: "" },
   },
   {
-    id: 23,
+    id: 24,
     emoji: "🌀",
     img: cubertoImg,
     title: "Cuberto Clone",
@@ -439,7 +478,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Cuberto", live: "" },
   },
   {
-    id: 24,
+    id: 25,
     emoji: "✨",
     img: modernLandingImg,
     title: "Modern Landing Page",
@@ -456,7 +495,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 25,
+    id: 26,
     emoji: "🏛️",
     img: nagaravrttaImg,
     title: "Nagaravrtta",
@@ -470,7 +509,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Nagaravrtta", live: "" },
   },
   {
-    id: 26,
+    id: 27,
     emoji: "🎞️",
     img: thomasVanceImg,
     title: "Thomas Vance Animation",
@@ -484,7 +523,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Thomas-Vance", live: "" },
   },
   {
-    id: 27,
+    id: 28,
     emoji: "🚀",
     img: eSummitImg,
     title: "E-Summit Website",
@@ -507,7 +546,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 28,
+    id: 29,
     emoji: "🧑‍💻",
     img: portfolioV1Img,
     title: "Portfolio v1",
@@ -521,7 +560,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Portfolio_1", live: "" },
   },
   {
-    id: 29,
+    id: 30,
     emoji: "🖥️",
     img: peterSandImg,
     title: "Peter Sand Clone",
@@ -535,7 +574,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/PETER-SAND", live: "" },
   },
   {
-    id: 30,
+    id: 31,
     emoji: "🧱",
     img: bentoGridImg,
     title: "Bento Grid Portfolio",
@@ -549,7 +588,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Bento-Grid", live: "" },
   },
   {
-    id: 31,
+    id: 32,
     emoji: "🍽️",
     img: restaurantWebsiteImg,
     title: "Restaurant Website",
@@ -566,7 +605,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 32,
+    id: 33,
     emoji: "🔵",
     img: bubbleGameImg,
     title: "Bubble Game",
@@ -580,7 +619,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Bubble-Game", live: "" },
   },
   {
-    id: 33,
+    id: 34,
     emoji: "🐍",
     img: snakeGameImg,
     title: "Snake Game",
@@ -594,7 +633,7 @@ export const PROJECTS = [
     links: { github: "https://github.com/Sheersh01/Snake_Game", live: "" },
   },
   {
-    id: 34,
+    id: 35,
     emoji: "✊",
     img: stonePaperScissorImg,
     title: "Rock Paper Scissors",
@@ -611,7 +650,7 @@ export const PROJECTS = [
     },
   },
   {
-    id: 35,
+    id: 36,
     emoji: "📝",
     img: toDoListImg,
     title: "To-Do List",
