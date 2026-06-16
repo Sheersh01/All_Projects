@@ -355,7 +355,7 @@ export const PROJECTS = [
     tags: ["threejs", "webgl", "gsap", "3d", "simulation"],
     stack: ["Three.js", "GSAP", "JavaScript", "Vite", "HTML", "CSS"],
     featured: true,
-    links: { github: "https://github.com/Sheersh01/Planets_2", live: "" },
+    links: { github: "https://github.com/Sheersh01/Planets_2", live: "https://planets-main.vercel.app/" },
   },
   {
     id: 16,
@@ -369,7 +369,7 @@ export const PROJECTS = [
     tags: ["threejs", "webgl", "shaders", "frontend", "graphics"],
     stack: ["Three.js", "GLSL", "GSAP", "Vite", "lil-gui", "troika-three-text"],
     featured: true,
-    links: { github: "https://github.com/Sheersh01/Blob_Mixer", live: "" },
+    links: { github: "https://github.com/Sheersh01/Blob_Mixer", live: "https://blob-mixer-five.vercel.app/" },
   },
   {
     id: 17,
@@ -400,7 +400,7 @@ export const PROJECTS = [
     tags: ["threejs", "webgl", "glsl", "frontend", "ui-clone"],
     stack: ["Three.js", "GLSL", "JavaScript", "Vite", "Tailwind CSS"],
     featured: true,
-    links: { github: "https://github.com/Sheersh01/Deveb_Co", live: "" },
+    links: { github: "https://github.com/Sheersh01/Deveb_Co", live: "https://deveb-co-roan.vercel.app/" },
   },
   {
     id: 19,
@@ -447,7 +447,7 @@ export const PROJECTS = [
     featured: false,
     links: {
       github: "https://github.com/Sheersh01/SIDCUP-FAMILY-GOLF",
-      live: "",
+      live: "https://sidcup-family-golf-neon-delta.vercel.app/",
     },
   },
   {
@@ -462,7 +462,7 @@ export const PROJECTS = [
     tags: ["frontend", "ui-clone", "animations", "interactive", "javascript"],
     stack: ["HTML", "CSS", "JavaScript", "GSAP"],
     featured: false,
-    links: { github: "https://github.com/Sheersh01/MAGMA", live: "" },
+    links: { github: "https://github.com/Sheersh01/MAGMA", live: "https://magma-livid.vercel.app/" },
   },
   {
     id: 23,
@@ -476,7 +476,7 @@ export const PROJECTS = [
     tags: ["frontend", "ui-clone", "animations", "interactive", "javascript"],
     stack: ["HTML", "CSS", "JavaScript", "GSAP"],
     featured: false,
-    links: { github: "https://github.com/Sheersh01/Rejouice", live: "" },
+    links: { github: "https://github.com/Sheersh01/Rejouice", live: "https://rejouice-black.vercel.app/" },
   },
   {
     id: 24,
@@ -490,7 +490,7 @@ export const PROJECTS = [
     tags: ["frontend", "ui-clone", "animations", "interactive", "javascript"],
     stack: ["HTML", "CSS", "JavaScript", "GSAP"],
     featured: false,
-    links: { github: "https://github.com/Sheersh01/Sundown-Studio", live: "" },
+    links: { github: "https://github.com/Sheersh01/Sundown-Studio", live: "https://sundown-studio-gules.vercel.app/" },
   },
   {
     id: 25,
@@ -504,7 +504,7 @@ export const PROJECTS = [
     tags: ["frontend", "ui-clone", "animations", "sheryjs", "interactive"],
     stack: ["HTML", "CSS", "JavaScript", "SheryJS"],
     featured: false,
-    links: { github: "https://github.com/Sheersh01/Cuberto", live: "" },
+    links: { github: "https://github.com/Sheersh01/Cuberto", live: "https://cuberto-swart.vercel.app/" },
   },
   {
     id: 26,
@@ -520,7 +520,7 @@ export const PROJECTS = [
     featured: false,
     links: {
       github: "https://github.com/Sheersh01/Modern-Landing-Page",
-      live: "",
+      live: "https://modern-landing-page-green.vercel.app/",
     },
   },
   {
@@ -549,7 +549,7 @@ export const PROJECTS = [
     tags: ["frontend", "animations", "lenis", "scroll", "ui"],
     stack: ["HTML", "CSS", "JavaScript", "Lenis"],
     featured: false,
-    links: { github: "https://github.com/Sheersh01/Thomas-Vance", live: "" },
+    links: { github: "https://github.com/Sheersh01/Thomas-Vance", live: "https://thomas-vance-orcin.vercel.app/" },
   },
   {
     id: 29,
