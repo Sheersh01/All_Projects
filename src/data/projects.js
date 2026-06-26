@@ -37,12 +37,14 @@ import interviewPilotImg from "../images/Interview_Pilot.png";
 import mahabalAgroIndustriesImg from "../images/Mahabal_Agro_Industries.png";
 import kanbanFlowImg from "../images/KanbanFlow.png";
 import xenoImg from "../images/Xeno.png";
+import saasCopilotImg from "../images/Saas_Copilot.png";
+import zajnoImg from "../images/zajno.png";
 
 export const PROJECTS = [
   {
       id: 1,
       emoji: "🤖",
-      img: null,
+      img: saasCopilotImg,
       title: "Universal SaaS Copilot",
       cat: "fullstack",
       catLabel: "Full-stack",
@@ -262,7 +264,7 @@ export const PROJECTS = [
   {
       id: 9,
       emoji: "🚀",
-      img: null,
+      img: zajnoImg,
       title: "Zajno Landing Page Clone",
       cat: "creative",
       catLabel: "Creative",
